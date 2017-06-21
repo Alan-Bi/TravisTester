@@ -1,0 +1,3 @@
+<project name="TravisTester" default="default" basedir=".">
+    <description>Test program for Travis CI.</description>
+</project>
