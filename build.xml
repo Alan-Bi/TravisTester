@@ -1,9 +1,4 @@
 <project name="TravisTester" default="default" basedir=".">
     <description>Test program for Travis CI.</description>
-    <target name="chmod_task">
-        <exec executable="chmod">
-            <arg value="755"/>
-            <arg value="./src/Calculator.java"/>
-        </exec>
-    </target>
+    <chmod file="${dist}/Calculator.java" perm="ugo+rx"/>
 </project>
