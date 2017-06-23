@@ -2,5 +2,4 @@ language: java
 jdk:
   - oraclejdk7
 script:
-  - chmod 755 ./src/Calculator.java
-  - ./src/Calculator.java
+  - ant main
