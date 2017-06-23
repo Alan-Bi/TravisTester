@@ -10,10 +10,14 @@ import java.util.Scanner;
  */
 public class Calculator
 {
-    public static void main(String[] args) //throws FileNotFoundException
+    public static void main(String[] args) throws FileNotFoundException
     {
         System.out.println("Hello, world!");
         add("test1in.txt", "test1out.txt");
+        
+        Scanner sc = new Scanner(new File("test1out.txt"));
+        int sum = sc.nextInt();
+        assert sum == 39;
     }
 
     public static void add(String fileIn, String fileOut) throws FileNotFoundException
