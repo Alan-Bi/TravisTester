@@ -1,6 +1,6 @@
 package TravisTester;
 
-/*import java.io.File;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -13,10 +13,10 @@ public class Calculator
     public static void main(String[] args) //throws FileNotFoundException
     {
         System.out.println("Hello, world!");
-        //add("test1in.txt", "test1out.txt");
+        add("test1in.txt", "test1out.txt");
     }
 
-    /*public static void add(String fileIn, String fileOut) throws FileNotFoundException
+    public static void add(String fileIn, String fileOut) throws FileNotFoundException
     {
         Scanner in = new Scanner(new File(fileIn));
 
@@ -29,5 +29,5 @@ public class Calculator
         PrintWriter out = new PrintWriter(fileOut);
         out.println(sum);
         out.close();
-    }*/
+    }
 }
