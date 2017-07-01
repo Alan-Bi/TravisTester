@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk7
 before_install:
-  - wget -O dafny-1.9.7.zip "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=dafny&DownloadId=1559952&FileTime=131040300896400000&Build=21031"
+  - wget -O dafny-1.9.7.zip "https://github.com/Microsoft/dafny/releases/download/v1.9.7/Dafny.1.9.7.for.Ubuntu.zip"
   - unzip dafny-1.9.7.zip
 script:
   - ant main
