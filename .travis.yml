@@ -4,4 +4,4 @@ jdk:
 script:
   - chmod 755 ./src/Calculator.java
   - javac ./src/Calculator.java
-  - java Calculator
+  - java TravisTester.Calculator
