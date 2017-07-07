@@ -3,5 +3,5 @@ jdk:
   - oraclejdk7
 script:
   - chmod 755 ./src/Calculator.java
-  - javac ./src/Calculator.java
+  - javac -d . ./src/Calculator.java
   - java Calculator
